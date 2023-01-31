@@ -12,6 +12,7 @@ a {
     text-decoration: none;
 }
 
+///////HEADER///////////////////////////////////
 header {
     background-color: white;
     font-size: $headerfont;
@@ -70,10 +71,41 @@ header {
     }
 }
 
+///////////SECTION COMICS///////////////////////////
+
+section {
+    background-color: black;
+
+    .jumbo {
+        min-height: 300px;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 0%;
+
+
+        .section_title {
+            padding: 10px 20px;
+            background-color: $dc_blue;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            position: absolute;
+            bottom: 0;
+            left: 5%;
+            translate: 0% 50%;
+        }
+
+        .my_card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+}
 
 
 
-
+////////FOOTER/////////////////////////////////////////////
 .top {
     background-color: $dc_blue;
     min-height: 100px;
