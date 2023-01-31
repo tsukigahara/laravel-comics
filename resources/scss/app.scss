@@ -95,11 +95,12 @@ header {
             translate: 0% 50%;
         }
 
-        .my_card-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: white;
-        }
+    }
+
+    .my_card-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
     }
 }
 
@@ -114,15 +115,19 @@ header {
         background-size: cover;
         background-position: 50% 0%;
         border-bottom: 80px solid $dc_blue;
+    }
+
+    .container {
+        position: relative;
 
         .section_title {
-            padding: 0;
+            padding: 5px;
             background-color: $dc_blue;
             width: 150px;
             position: absolute;
-            bottom: 25%;
-            left: 5%;
-            translate: 0% 50%;
+            top: -250px;
+            left: 0%;
+            translate: 0% 0;
 
             img {
                 width: 100%;

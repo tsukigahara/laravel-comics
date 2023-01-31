@@ -12,7 +12,7 @@
             </div>
         </div>
         <!-- contents -->
-        <div class="container p-5">
+        <div class="container py-5">
             <!-- bootrap grid system -->
             <div class="row row-cols-lg-6 row-cols-md-4 row-cols-sm-3 row-cols-2 g-3">
                 <!-- vfor using props -->
