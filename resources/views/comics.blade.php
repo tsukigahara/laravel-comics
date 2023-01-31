@@ -17,7 +17,7 @@
             <div class="row row-cols-lg-6 row-cols-md-4 row-cols-sm-3 row-cols-2 g-3">
                 <!-- vfor using props -->
                 <div class="col">
-                    <a href="">
+                    <a href="comic_details">
                         <!-- card -->
                         <div class="card bg-transparent">
                             <!-- card image -->

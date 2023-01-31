@@ -73,7 +73,7 @@ header {
 
 ///////////SECTION COMICS///////////////////////////
 
-section {
+.comics {
     background-color: black;
 
     .jumbo {
@@ -103,6 +103,36 @@ section {
     }
 }
 
+// SECTION COMIC DETAILS///////////////
+.comic-details {
+    background-color: white;
+    min-height: 600px;
+
+    .jumbo {
+        min-height: 300px;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 0%;
+        border-bottom: 80px solid $dc_blue;
+
+        .section_title {
+            padding: 0;
+            background-color: $dc_blue;
+            width: 150px;
+            position: absolute;
+            bottom: 25%;
+            left: 5%;
+            translate: 0% 50%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+
+}
 
 
 ////////FOOTER/////////////////////////////////////////////
