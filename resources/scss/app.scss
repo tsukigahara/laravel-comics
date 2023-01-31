@@ -1,1 +1,188 @@
-@import '~bootstrap/scss/bootstrap'
+@use './partials/variables' as *;
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    font-size: $headerfont;
+    font-weight: 600;
+
+    .container {
+
+        // flex wrapper
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            min-height: 100px;
+
+            // logo
+            a>img {
+                width: 80px;
+                height: auto;
+            }
+
+            // nav list
+            ul {
+                align-self: stretch;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                li {
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    border-top: 4px solid transparent;
+                    border-bottom: 4px solid transparent;
+
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                    }
+
+                    &.active,
+                    &:hover {
+                        border-bottom: 4px solid $dc_blue;
+
+                        & a {
+                            color: $dc_blue;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+.top {
+    background-color: $dc_blue;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: white;
+
+            img {
+                width: 100%;
+                height: auto;
+                max-width: 50px;
+                margin-right: 10px;
+            }
+
+            h5 {
+                display: inline-block;
+                font-size: 14px;
+            }
+
+            &:hover {
+                filter: invert(100%)
+            }
+        }
+    }
+}
+
+// footer
+footer {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0;
+
+    img {
+        right: 0;
+        top: 0;
+        translate: 0% -15%;
+        position: absolute;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+
+        div {
+            min-width: 150px;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                a {
+                    color: gray;
+
+                    &:hover {
+                        color: $dc_blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// bottom bar
+.bottom {
+    min-height: 80px;
+    background-color: $background;
+    display: flex;
+    align-items: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        color: $dc_blue;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        a {
+            img {
+                &:hover {
+                    filter: sepia(100%) hue-rotate(172deg) saturate(400%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "name": "DC COMICS",
+    "subitem": [
+      {
+        "name": "CHARACTER",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "COMICS",
+        "status": true,
+        "url": ""
+      },
+      {
+        "name": "MOVIES",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "TV",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "GAMES",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "COLLECTIBLES",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "VIDEOS",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "FANS",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "NEWS",
+        "status": false,
+        "url": ""
+      },
+      {
+        "name": "SHOP",
+        "status": false,
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "SHOP",
+    "subitem": [
+      {
+        "name": "Shop DC",
+        "url": ""
+      },
+      {
+        "name": "Shop DC Collectibles",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "DC",
+    "subitem": [
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "SITES",
+    "subitem": [
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      },
+      {
+        "name": "lorem",
+        "url": ""
+      }
+    ]
+  }
+]
